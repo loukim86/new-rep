@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'TT Lakes Regular';
+    src: url('font/TT\ Lakes\ Regular.woff');
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'TT Lakes Regular', sans-serif;
+}
+ 
+.menu__block {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 320px;
+    background-color: #fff;
+    box-shadow: 18px 0 30px 0 rgba(18, 30, 99, 0.2);
+    overflow-y: scroll;
+}
+
+.menu__header {
+    display: flex;
+    padding: 24px;
+    align-items: center;
+}
+
+.button img {
+    transition: filter 0.3s;
+}
+
+.button:hover img {
+    filter: saturate(30%);
+}
+
+.logo-image {
+    margin-left: 10px;
+}
+
+.searching-button {
+    display: flex;
+    justify-content: flex-end;
+    height: 40px;
+    width: 100%;
+}
+
+.menu__content-cover {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.menu__content {
+    padding: 0 20px;
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.menu__items {
+    display: flex;
+    flex-direction: column;
+    font-weight: 550;
+    margin: 6px 0px 30px;
+}
+
+.menu__item_active {
+    color: #7E7E82;
+}
+
+.menu__item {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 16px;
+    min-height: 30px;
+    font-family: 550;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+.menu__connection {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu__connection-buttons {
+    margin-bottom: 16px;
+}
+
+.menu-buttons {
+    display: flex;
+}
+
+.button-cover {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+    margin-bottom: 15px;
+}
+
+.menu__contact {
+    padding-bottom: 32px;
+}
+
+.menu__email {
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 18px;
+}
+
+.menu__phone {
+    font-weight: bolder;
+}
+
+.menu__language {
+    display: flex;
+    margin-top: 10px;
+}
+
+.menu__language-item.active-item {
+    color:#7E7E82;
+}
+
+.menu__language-item {
+    margin-right: 8px;
+    margin-top: 16px;
+    font-weight: 550;
+    font-size: 15px;
+}
+
+
+
+
+
